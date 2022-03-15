@@ -2,8 +2,7 @@
 
 # Awosame book
 
->The project is to built the Awsome book.To describe what we did as project and who to contact him.  
-
+> The project is to built the Awsome book.To describe what we did as project and who to contact him.
 
 ## Built With
 
@@ -13,12 +12,11 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://danushindi.github.io/portfolio/)
-
+[Live Demo Link](https://danushindi.github.io/Awsome-Book/)
 
 ## Getting Started
 
--Before you have to install Git App  and if you dont have it you can download it via [https://git-scm.com/downloads]
+-Before you have to install Git App and if you dont have it you can download it via [https://git-scm.com/downloads]
 
 -After you have to create a repo in Git and clone it
 by tapping **git clone git@github.com:DanUshindi/Awsome-Book.git**
@@ -38,11 +36,9 @@ This website is used for refrence concerning my skills and experience as a progr
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/DanUshindi)
-- Twitter: [@twitterhandle](https://twitter.com/dan_ushindi)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dan-ushindi-821415215/)
-
-
+- GitHub: [@joel-kalema](https://github.com/joel-kalema)
+- Twitter: [@JoelJklm](https://www.linkedin.com/in/joel-kalema-30518a230/)
+- LinkedIn: [joel kalema](https://twitter.com/JoelJklm)
 
 ## 🤝 Contributing
 

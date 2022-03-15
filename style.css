@@ -11,6 +11,11 @@ li {
   padding-bottom: 10px;
 }
 
+h1 {
+  font-size: 38px;
+  padding-bottom: 20px;
+}
+
 body {
   font-family: 'Prompt', sans-serif;
   padding: 40px;
@@ -18,7 +23,6 @@ body {
 }
 
 input {
-  padding: 5px;
   font-size: 10px;
   width: 20%;
   margin-top: 15px;
