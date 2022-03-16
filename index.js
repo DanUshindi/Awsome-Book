@@ -81,8 +81,8 @@ class Bookstore {
   };
 
   getStorage = (key) => {
-    const data = JSON.parse(localStorage.getItem(key));
-    return data;
+    this.books = JSON.parse(localStorage.getItem(key));
+    return this.books;
   };
 }
 
@@ -108,7 +108,7 @@ document.addEventListener('click', (e) => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  if (localStorage.getItem('books')) {
+  if (bookStore.getStorage('books')) {
     bookStore.getStorage('books');
     bookStore.displayBooks(list);
   }
