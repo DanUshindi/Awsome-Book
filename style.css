@@ -12,8 +12,35 @@ body {
   background-color: rgb(224, 224, 224);
 }
 
-main {
+.tab__sidebar {
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  top: 40vh;
+  box-shadow: 3px 3px 10px #000;
+}
 
+.tab__sidebar h1 {
+  width: 50%;
+}
+
+li button {
+  margin-right: 5px;
+  border: none;
+  color: red;
+  padding: 5px 20px;
+  background-color: rgb(44, 44, 44);
+}
+
+.tab__sidebar button {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  border: none;
+  padding-right: 55px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-bottom: 10px;
 }
 
 .tab__content {
@@ -25,7 +52,7 @@ main {
 }
 
 .tab__button--active {
-  background-color: #55ffba;
+  background-color: #2bd692;
 }
 
 section {
@@ -49,13 +76,8 @@ section {
   color: rgba(255, 255, 255, 0.89);
 }
 
-.books-container {
-  width: 60%;
-  padding: 20px;
-}
-
 li {
-  font-size: 13px;
+  font-size: 17px;
   width: 70%;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.274);
@@ -73,21 +95,12 @@ li p {
   display: flex;
 }
 
-li button {
-  width: 15%;
-  margin-right: 5px;
-  border: none;
-  color: red;
-  padding: 5px;
-  background-color: rgb(44, 44, 44);
-}
-
 input {
   width: 80%;
   padding: 4px;
   margin: 0 auto;
   font-size: 20px;
-  margin-top: 15px;
+  margin-top: 25px;
   border: none;
   outline: none;
   background-color: rgba(255, 255, 255, 0.671);
@@ -107,15 +120,27 @@ input {
 
 .form button {
   cursor: pointer;
-  color: #fff;
+  color: rgb(43, 43, 43);
   margin-top: 20px;
   border: none;
-  padding: 5px 18px;
-  background-color: rgb(159, 77, 236);
+  padding: 8px 25px;
+  background-color: #49d69e;
 }
 
 .form-containt h1 {
   text-align: center;
-  font-size: 20px;
+  font-size: 23px;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.contact h1 {
+  text-align: center;
+  font-size: 23px;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.list h1 {
+  text-align: center;
+  font-size: 23px;
   color: rgba(255, 255, 255, 0.89);
 }
