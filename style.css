@@ -8,6 +8,7 @@
 }
 
 body {
+  background-color: rgb(231, 231, 231);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Prompt', sans-serif;
@@ -22,17 +23,29 @@ body {
   background-color: blueviolet;
 }
 
-ul {
+.title {
+  margin-left: 11rem;
+  font-size: 39px;
+  padding-bottom: 15px;
+}
+
+.books-container h1 {
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.books-container {
   width: 60%;
   padding: 20px;
 }
 
 li {
   font-size: 13px;
-  width: 100%;
+  width: 90%;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.274);
-  margin-bottom: 10px;
+  margin: 10px auto;
   display: flex;
 }
 
@@ -52,12 +65,7 @@ li button {
   border: none;
   color: red;
   padding: 5px;
-  background-color: rgb(31, 30, 30);
-}
-
-h1 {
-  font-size: 39px;
-  padding-bottom: 15px;
+  background-color: rgb(44, 44, 44);
 }
 
 input {
@@ -73,13 +81,16 @@ input {
 .form {
   padding: 4rem 2rem;
   width: 40%;
+  background-color: rgb(51, 50, 50);
 }
 
 .form button {
   cursor: pointer;
+  color: #fff;
   margin-top: 20px;
   border: none;
   padding: 5px 18px;
+  background-color: rgb(159, 77, 236);
 }
 
 .form h1 {
