@@ -68,9 +68,9 @@ class Bookstore {
   displayBooks(list) {
     list.innerHTML = '';
     this.books.forEach((book) => {
-      const li = `<li><p>${book.author}</p>
-                  <h3>${book.title}</h3>
-                  <button id="${book.id}" class="remove-btn">remove</button></li><hr />`;
+      const li = `<li><div class="list-container"><h3>"${book.title}"</h3>
+                  <p>by ${book.author}</p></div>
+                  <button id="${book.id}" class="remove-btn">Remove</button></li>`;
       list.innerHTML += li;
     });
   }
