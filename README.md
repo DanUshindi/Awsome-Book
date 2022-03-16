@@ -28,13 +28,13 @@ This website is used for refrence concerning my skills and experience as a progr
 
 ## Authors
 
-👤 **Author1**
+👤 **Dan Ushindi**
 
 - GitHub: [@githubhandle](https://github.com/DanUshindi)
 - Twitter: [@twitterhandle](https://twitter.com/dan_ushindi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dan-ushindi-821415215/)
 
-👤 **Author2**
+👤 **JOEL KALEMA**
 
 - GitHub: [@joel-kalema](https://github.com/joel-kalema)
 - Twitter: [@JoelJklm](https://www.linkedin.com/in/joel-kalema-30518a230/)
