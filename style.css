@@ -80,13 +80,14 @@ li {
   font-size: 17px;
   width: 70%;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.274);
+  background-color: rgba(255, 255, 255, 0.39);
   margin: 10px auto;
   display: flex;
 }
 
 li p {
   margin-left: 20px;
+  font-size: 15px;
 }
 
 .list-container {
@@ -97,9 +98,9 @@ li p {
 
 input {
   width: 80%;
-  padding: 4px;
+  padding: 7px;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 25px;
   border: none;
   outline: none;
