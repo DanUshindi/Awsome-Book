@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 12px;
 }
 
 body {
@@ -144,4 +143,14 @@ input {
   text-align: center;
   font-size: 23px;
   color: rgba(255, 255, 255, 0.89);
+}
+
+.cotact-containt {
+  color: #fff;
+  width: 50%;
+  margin: 80px auto;
+}
+
+.cotact-containt h2 {
+  margin: 20px 0;
 }
