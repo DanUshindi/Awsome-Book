@@ -19,6 +19,11 @@ body {
   box-shadow: 3px 3px 10px #000;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .tab__sidebar h1 {
   width: 50%;
 }
@@ -86,6 +91,10 @@ li {
 
 li p {
   margin-left: 20px;
+  font-size: 15px;
+}
+
+li h3 {
   font-size: 15px;
 }
 
@@ -157,4 +166,17 @@ input {
 
 .time {
   padding: 20px;
+  background-color: #fff;
+  height: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 150px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.555);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
